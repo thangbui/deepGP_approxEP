@@ -1,11 +1,9 @@
 import sys, os
-sys.path.append(os.path.expanduser('~/synced/code/epsdgp/lib/tools/'))
-from system_tools import *
+sys.path.append(os.path.expanduser('~/synced/code/epsdgp/lib/tools/'))*
 import numpy as np
 from EQ_kernel import *
 import scipy.linalg as spalg
 import scipy as scipy
-from linalg_tools import *
 import pprint as pp
 import time
 from tools import *
