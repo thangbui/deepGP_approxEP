@@ -1,5 +1,4 @@
 import sys, os
-sys.path.append(os.path.expanduser('~/synced/code/epsdgp/lib/tools/'))*
 import numpy as np
 from EQ_kernel import *
 import scipy.linalg as spalg
