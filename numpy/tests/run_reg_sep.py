@@ -73,8 +73,8 @@ data = np.loadtxt(datafile)
 # We obtain the features and the targets
 xindexfile = datapath + 'index_features.txt'
 yindexfile = datapath + 'index_target.txt'
-xindices = np.loadtxt(xindexfile, dtype=np.int8)
-yindex = np.loadtxt(yindexfile, dtype=np.int8)
+xindices = np.loadtxt(xindexfile, dtype=np.int)
+yindex = np.loadtxt(yindexfile, dtype=np.int)
 X = data[:, xindices]
 y = data[:, yindex]
 y = y.reshape([y.shape[0], 1])
@@ -98,8 +98,8 @@ for i in range(nosplits):
 
     train_ind_file = datapath + 'index_train_' + str(i) + '.txt'
     test_ind_file = datapath + 'index_test_' + str(i) + '.txt'
-    index_train = np.loadtxt(train_ind_file, dtype=np.int8)
-    index_test = np.loadtxt(test_ind_file, dtype=np.int8)
+    index_train = np.loadtxt(train_ind_file, dtype=np.int)
+    index_test = np.loadtxt(test_ind_file, dtype=np.int)
     X_train = X[index_train, :]
     y_train = y[index_train, :]
     X_test = X[index_test, :]
