@@ -1,5 +1,7 @@
 # Deep Gaussian processes for regression using approximate Expectation Propagation
 
+Update Mar 27: New version coming soon! 
+
 This repository contains Theano and python code for the paper:
 
 Deep Gaussian Processes for Regression using Approximate Expectation Propagation, Thang Bui, Daniel Hernandez-Lobato, Yingzhen Li, Jose miguel Hernandez-Lobato and Richard Turner, ICML 2016.
